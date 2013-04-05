@@ -1,6 +1,6 @@
 #include <Python.h>
 
-//#include "scrypt.h"
+#include "scrypt.h"
 
 static PyObject *scrypt_getpowhash(PyObject *self, PyObject *args)
 {
